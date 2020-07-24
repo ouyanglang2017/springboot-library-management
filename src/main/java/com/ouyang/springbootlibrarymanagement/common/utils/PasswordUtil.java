@@ -10,6 +10,9 @@ import java.security.SecureRandom;
 
 public class PasswordUtil {
 
+
+
+
     /**
      * JAVA6支持以下任意一种算法 PBEWITHMD5ANDDES PBEWITHMD5ANDTRIPLEDES
      * PBEWITHSHAANDDESEDE PBEWITHSHA1ANDRC2_40 PBKDF2WITHHMACSHA1
