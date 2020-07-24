@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72d1a3e3-0295-4caf-8fdd-ab1c2296a80a" name="Default Changelist" comment="1111" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../springboot-library-management-git" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ouyanglang2017/springboot-library-management.git" />
+      </set>
+    </option>
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\repo" />
+        <option name="userSettingsFile" value="G:\repo\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eyYD2JhSWUrzlAd8g10UAznZSh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ouyang.springbootlibrarymanagement" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\springboot-library-management\src\main\resources\mapper\sys" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringbootApplication">
+    <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.springbootlibrarymanagement.shiro.JwtUtils" />
+      <module name="springboot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.springbootlibrarymanagement.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ouyang.springbootlibrarymanagement.SpringbootApplication" />
+      <module name="springboot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ouyang.springbootlibrarymanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringbootApplication" />
+        <item itemvalue="Application.JwtUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72d1a3e3-0295-4caf-8fdd-ab1c2296a80a" name="Default Changelist" comment="" />
+      <created>1595295176070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595295176070</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1111">
+      <created>1595559829048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595559829048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../springboot-library-management-git" />
+    </ignored-roots>
+    <MESSAGE value="1111" />
+    <option name="LAST_COMMIT_MESSAGE" value="1111" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="228" key="#Notifications" timestamp="1595561413213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="228" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1595561413213" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595311113398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595311113398" />
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1595381236102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595381236102" />
+    <state x="404" y="227" width="518" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595295441238">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="227" width="518" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1595295441238" />
+    <state x="403" y="76" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595295696198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="403" y="76" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1595295696198" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1595560109382">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595560109382" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595562311466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595562311466" />
+    <state x="542" y="262" width="281" height="287" key="Github.ShareDialog" timestamp="1595561402915">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="542" y="262" width="281" height="287" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1595561402915" />
+    <state x="448" y="62" key="Github.UntrackedFilesDialog" timestamp="1595559483697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="62" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595559483697" />
+    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1595560576769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
+    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1595560576768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595560576768" />
+    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1595560576768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595560576768" />
+    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1595560576768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595560576768" />
+    <state width="1323" height="137" key="GridCell.Tab.1.bottom" timestamp="1595560576769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
+    <state width="1323" height="137" key="GridCell.Tab.1.center" timestamp="1595560576769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
+    <state width="1323" height="137" key="GridCell.Tab.1.left" timestamp="1595560576769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
+    <state width="1323" height="137" key="GridCell.Tab.1.right" timestamp="1595560576769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="137" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1595571965527">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595571965527" />
+    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595409704464">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595409704464" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595317869749">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595317869749" />
+  </component>
+</project>
