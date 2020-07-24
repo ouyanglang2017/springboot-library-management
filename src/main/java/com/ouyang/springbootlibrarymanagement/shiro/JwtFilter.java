@@ -1,7 +1,7 @@
 package com.ouyang.springbootlibrarymanagement.shiro;
 
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.web.filter.authc.BasicHttpAuthenticationFilter;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.shiro.web.filter.AccessControlFilter;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -9,39 +9,50 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
-public class JwtFilter extends BasicHttpAuthenticationFilter {
+@Slf4j
+public class JwtFilter extends AccessControlFilter {
 
-    /**
-     * 执行登录验证
-     *
-     * @param request
-     * @param response
-     * @param mappedValue
-     * @return
-     */
+
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
-        try {
-            executeLogin(request, response);
-            return true;
-        } catch (Exception e) {
-            throw new AuthenticationException("token失效请重新登录", e);
-        }
+        log.warn("isAccessAllowed 方法被调用");
+        //始终返回false来使用onAccessDenied()方法
+        return false;
     }
 
+    /**
+     * 返回结果为true表明登录通过
+     */
     @Override
-    protected boolean executeLogin(ServletRequest request, ServletResponse response) throws Exception {
-        HttpServletRequest httpServletRequest = (HttpServletRequest) request;
+    protected boolean onAccessDenied(ServletRequest servletRequest, ServletResponse servletResponse) throws Exception {
+        HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
         String token = httpServletRequest.getHeader("access-token");
         JwtToken jwtToken = new JwtToken(token);
-        //交给realm进行登入
-        getSubject(request,response).login(jwtToken);
+        try {
+            getSubject(servletRequest, servletResponse).login(jwtToken);
+        } catch (Exception e) {
+            e.printStackTrace();
+            onLoginFail(servletResponse,e.getMessage());
+            //调用下面的方法向客户端返回错误信息
+            return false;
+        }
         return true;
     }
 
+    //登录失败时默认返回 401 状态码
+    private void onLoginFail(ServletResponse response,String errorMsg) throws IOException {
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        httpResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+        httpResponse.setCharacterEncoding("utf-8");
+        httpResponse.getWriter().write(errorMsg);
+    }
+
+
     /**
      * 跨域处理
+     *
      * @param request
      * @param response
      * @return
