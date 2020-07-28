@@ -71,6 +71,7 @@ http:
   socketTimeout: 10000
   #提交请求前测试连接是否可用
   staleConnectionCheckEnabled: true
-
+config:
+  queryUrl: 'http://www.shuhaochaxun.com/isbn/'
 
 
