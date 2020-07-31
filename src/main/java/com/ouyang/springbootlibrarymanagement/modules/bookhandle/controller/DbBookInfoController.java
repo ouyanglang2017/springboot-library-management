@@ -27,4 +27,5 @@ public class DbBookInfoController {
     public Result<DbBookInfoEntity> scanBook(String isbn) throws IOException {
         return dbBookInfoService.scanBook(isbn);
     }
+
 }

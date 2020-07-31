@@ -1,7 +1,7 @@
 package com.ouyang.springbootlibrarymanagement.modules.bookhandle.entity;
 
-import com.baomidou.mybatisplus.annotations.TableId;
-import com.baomidou.mybatisplus.annotations.TableName;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.util.Date;
@@ -15,4 +15,5 @@ public class DbBookStockEntity {
     private Integer stock;
     private Date createTime;
     private Date updateTime;
+    private String sysUserId;
 }

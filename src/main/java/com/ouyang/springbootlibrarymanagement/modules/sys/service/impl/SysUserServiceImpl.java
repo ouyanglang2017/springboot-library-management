@@ -1,5 +1,6 @@
 package com.ouyang.springbootlibrarymanagement.modules.sys.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.ouyang.springbootlibrarymanagement.modules.sys.entity.SysUserEntity;
 import com.ouyang.springbootlibrarymanagement.modules.sys.mapper.SysUserMapper;
 import com.ouyang.springbootlibrarymanagement.modules.sys.service.ISysUserService;
@@ -13,8 +14,8 @@ public class SysUserServiceImpl implements ISysUserService {
 
     @Override
     public SysUserEntity getUserByUsername(String username) {
-        SysUserEntity sysUserEntity = new SysUserEntity();
-        sysUserEntity.setUsername(username);
-        return sysUserMapper.selectOne(sysUserEntity);
+        QueryWrapper<SysUserEntity> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("username",username);
+        return sysUserMapper.selectOne(queryWrapper);
     }
 }

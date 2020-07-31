@@ -10,7 +10,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72d1a3e3-0295-4caf-8fdd-ab1c2296a80a" name="Default Changelist" comment="初次提交" />
+    <list default="true" id="72d1a3e3-0295-4caf-8fdd-ab1c2296a80a" name="Default Changelist" comment="HttpClient实现;添加jsoup处理;添加图书扫描接口">
+      <change afterPath="$PROJECT_DIR$/db/library-manage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/common/utils/UserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/controller/DbBookStockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generate_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/controller/DbBookInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/controller/DbBookInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/entity/DbBookInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/entity/DbBookInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/entity/DbBookStockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/entity/DbBookStockEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/mapper/DbBookInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/mapper/DbBookInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/mapper/DbBookStockMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/mapper/DbBookStockMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/service/IDbBookStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/service/IDbBookStockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/service/impl/DbBookStockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/service/impl/DbBookStockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/entity/SysPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/entity/SysPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/entity/SysRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/entity/SysRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/entity/SysUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/entity/SysUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/mapper/SysPermissionsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/mapper/SysPermissionsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/shiro/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/shiro/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,10 +88,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\springboot-library-management\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ouyang.springbootlibrarymanagement" />
       <recent name="" />
@@ -128,7 +163,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595572082913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初次提交">
+      <created>1595573951429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595573951429</updated>
+    </task>
+    <task id="LOCAL-00004" summary="shiro+jwt实现登录接口">
+      <created>1595578401509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595578401509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HttpClient实现;添加jsoup处理;添加图书扫描接口">
+      <created>1595921303453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595921303453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -160,21 +216,23 @@
     </ignored-roots>
     <MESSAGE value="1111" />
     <MESSAGE value="初次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+    <MESSAGE value="shiro+jwt实现登录接口" />
+    <MESSAGE value="HttpClient实现;添加jsoup处理;添加图书扫描接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpClient实现;添加jsoup处理;添加图书扫描接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="228" key="#Notifications" timestamp="1595561413213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="228" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1595561413213" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595311113398">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595821150384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595311113398" />
-    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1595381236102">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595821150384" />
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1596160024223">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595381236102" />
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596160024223" />
     <state x="404" y="227" width="518" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595295441238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -187,65 +245,89 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595560109382" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595571971675">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1596158016982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595571971675" />
-    <state x="542" y="262" width="281" height="287" key="Github.ShareDialog" timestamp="1595561402915">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596158016982" />
+    <state x="542" y="262" width="281" height="287" key="Github.ShareDialog" timestamp="1595573782796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="542" y="262" width="281" height="287" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1595561402915" />
+    <state x="542" y="262" width="281" height="287" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1595573782796" />
     <state x="448" y="62" key="Github.UntrackedFilesDialog" timestamp="1595559483697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="448" y="62" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1595559483697" />
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1595560576769">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1596161039972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
-    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1595560576768">
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596161039972" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1596161039972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595560576768" />
-    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1595560576768">
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596161039972" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1596161039971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595560576768" />
-    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1595560576768">
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596161039971" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1596161039972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595560576768" />
-    <state width="1323" height="137" key="GridCell.Tab.1.bottom" timestamp="1595560576769">
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596161039972" />
+    <state width="1323" height="199" key="GridCell.Tab.1.bottom" timestamp="1596161039712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
-    <state width="1323" height="137" key="GridCell.Tab.1.center" timestamp="1595560576769">
+    <state width="1323" height="199" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596161039712" />
+    <state width="1323" height="199" key="GridCell.Tab.1.center" timestamp="1596161039712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
-    <state width="1323" height="137" key="GridCell.Tab.1.left" timestamp="1595560576769">
+    <state width="1323" height="199" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596161039712" />
+    <state width="1323" height="199" key="GridCell.Tab.1.left" timestamp="1596161039712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
-    <state width="1323" height="137" key="GridCell.Tab.1.right" timestamp="1595560576769">
+    <state width="1323" height="199" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596161039712" />
+    <state width="1323" height="199" key="GridCell.Tab.1.right" timestamp="1596161039712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595560576769" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1595571965527">
+    <state width="1323" height="199" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596161039712" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1595573506463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595571965527" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1595572727270">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595573506463" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1595921450654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595572727270" />
-    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595409704464">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595921450654" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595904907465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595409704464" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595317869749">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1595904907465" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1595904907465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595317869749" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1595904907465" />
+    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595913962044">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1595913962044" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595836290790">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1595836290790" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/modules/bookhandle/service/impl/DbBookInfoServiceImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ouyang/springbootlibrarymanagement/shiro/JwtFilter.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
