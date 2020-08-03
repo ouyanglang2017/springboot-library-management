@@ -29,9 +29,7 @@ public class DbBookStockController {
         Page<DbBookStockEntity> page = new Page<>();
         DbBookStockEntity dbBookStockEntity = new DbBookStockEntity();
         dbBookStockEntity.setSysUserId(userUtils.getUserId());
-
         QueryWrapper<DbBookStockEntity> queryWrapper = new QueryWrapper<>(dbBookStockEntity);
-
         IPage<DbBookStockEntity> pageList = dbBookStockService.page(page, queryWrapper);
         result.setSuccess(true);
         result.setResult(pageList);
